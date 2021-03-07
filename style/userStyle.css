@@ -1,0 +1,417 @@
+﻿/**********************************************************************************************************************************************
+                                                                    用户登录样式表
+                                                    设计：北辰星拱 
+                                                    编制：北辰星拱
+                                                    最后修改：
+                                                       名称             日期              内容
+                                                    北辰星拱#         2020-1-30         创建文件
+**********************************************************************************************************************************************/
+
+
+/*************************************************************用户登录页面*************************************************************************/
+/*页面标题*/
+.usertitle {
+   text-align:center;
+   /*border:2px solid red;*/
+   /*vertical-align:middle;*/
+   margin-top:120px;
+   margin-bottom:50px;
+}
+.usertitle h1 {
+    font-size:60px;
+}
+
+/*页面登录界面*/
+.userlongding {
+    width:450px;
+    height:300px;
+    background-color:#eeeeee;
+    margin:20px auto;
+    text-align:center;
+    margin-bottom:100px;
+}
+    .userlongding span {
+        font-size:22px;
+    }
+    .userlongding input {
+        width:210px;
+        height:24px;
+        font-size:18px;
+    }
+.user {
+    margin:20px auto;
+    padding-top:50px;
+}
+.pwd {
+    margin:20px auto;
+}
+.button {
+    margin:10px auto;
+    margin-bottom:20px;
+}
+.button input {
+     height:32px;
+     width:150px;
+    vertical-align:middle;
+}
+.link a {
+    margin:5px;
+    padding:10px;
+}
+#ContentPlaceHolder1_l_err {
+    margin:1px;
+    padding:2px;
+    font-size:10px;
+    color:red;
+}
+
+
+
+/*************************************************************用户主界面*************************************************************************/
+/*标题区*/
+.user_head {
+     margin:40px auto;
+}
+.user_head {
+    margin:40px auto;
+    margin-left:30px;
+    margin-top:35px;
+   
+    padding:20px;
+
+}
+.user_inherent {
+    width:70px;
+    text-align:center;
+    float:right;
+    margin:40px;
+    margin-top:-20px;
+
+}
+.user_inherent:hover {
+    background-color:#eeeeee;
+}
+.user_inherent p {
+    width:70px;
+}
+
+/*目录区*/
+.user_menu {
+    margin:0px;
+    margin-top:5px;
+    margin-left:20px;
+}
+.user_menu div {
+    padding:10px;
+    border:2px solid #ddd; 
+    width:83px;
+    text-align:center;
+}
+.user_menu div:hover {
+    background-color:rgb(248,248,248);
+    color:orange;
+}
+.user_content {
+    margin:5px auto;
+    width:1200px;
+    margin-top:-10px;
+    padding-top:-10px;
+}
+.user_sheet {
+    /*border-width:inherit;*/
+    width:1050px;
+    height:500px;
+    padding-top:10px;
+    margin-top:-5px;
+    background-color:#eee;
+}
+
+/*************************************************************用户管理模块*************************************************************************/
+/*基本框架设置*/
+.user_index {
+    width:80px; 
+}
+.user_name {
+    width:120px;
+    border-left:2px solid #333;
+    /*background-color:red;*/
+    
+}
+.user_acont {
+    width:180px;
+    /*border-left:2px solid #333;*/
+    /*background-color:red;*/
+}
+.user_admin {
+     width:80px;
+     border-left:2px solid #333;
+          margin-bottom:0px;
+     padding-bottom:0px;
+     border-bottom:0px;
+
+     /*background-color:red;*/
+}
+.user_newdate {
+     width:150px;
+     border-left:2px solid #333;
+     margin-bottom:0px;
+     padding-bottom:0px;
+     border-bottom:0px;
+}
+.user_lastdate {
+     width:150px;
+     border-left:2px solid #333;
+     margin-bottom:0px;
+     padding-bottom:0px;
+     border-bottom:0px;
+}
+.user_lock {
+     width:120px;
+     border-left:2px solid #333;
+     margin-bottom:0px;
+     padding-bottom:0px;
+     border-bottom:0px;
+}
+.user_button {
+    border-left:2px solid #333;
+    width:180px;
+     margin-bottom:0px;
+     padding-bottom:0px;
+     border-bottom:0px;
+}
+.um_head {
+    background-color:#ddd;
+    margin:15px;
+    padding:1px;
+    margin-bottom:2px;
+}
+.um_table {
+    background-color:#ccc;
+    /*margin:5px;*/
+    margin-left:15px;
+     margin-bottom:0px;
+     padding-bottom:0px;
+     border-bottom:0px;
+}
+.um_table:hover {
+    background-color:#bbb;
+    color:#333;
+}
+.user_col {
+    text-align:center;
+}
+.user_selected_col {
+    border-bottom:2px solid red;
+    background-color:#aaa;
+}
+.user_selceted_table {
+    color:orange;
+}
+.user_popupback {
+    background-color:silver;
+    filter:alpha(opacity=50);opacity:0.5;
+
+}
+.user_popup {
+    width:380px;
+    height:550px;
+    color:#eeeeee;
+    text-align:center;
+    background-color:silver;
+    border:1px solid gray;
+    position:fixed;
+    margin:auto;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+}
+.user_popup span {
+    color:#222222;
+}
+.user_popup label {
+    color:#222;
+}
+.user_popup div {
+    padding:15px;
+}
+.user_popup h2 {
+    color:#222;
+    margin-top:50px;
+    margin-bottom:28px;
+}
+.user_func {
+    padding:2px;
+}
+.user_func input {
+    width:180px;
+    height:26px;
+    border:2px solid gray;
+}
+.user_chk input {
+    width:20px;
+}
+.hr {
+    margin:0px;
+}
+.btn_user_popup {
+    width:28px;
+    height:20px;
+}
+
+
+/*************************************************************规范文件管理样式表*************************************************************************/
+/*筛选取样式设置*/
+.selected {
+    color:gray;
+    width:200px;
+    height:20px;
+}
+.selects {
+  margin:5px auto;
+  text-align:center;
+}
+    .selects select {
+        width:80px;
+        height:28px;
+        margin-right:20px;
+        /*color:antiquewhite;*/
+    }
+.txt_sfm_search {
+    width:200px;
+    height:20px;
+}
+.EmptyData h1 {
+    text-align:center;
+    margin-top:200px;
+}
+/*表格样式设置*/
+.stdFile_head {
+    background-color:#ccc;
+    text-align:center;
+    height:28px;    
+    line-height:28px; 
+    vertical-align:middle;
+}
+.stdFile_body {
+    padding:0px;
+    text-align:center;
+    height:25px;
+    border-bottom:1px solid #999;
+    font-size:14px;
+    line-height:25px;
+}
+    .stdFile_body:hover {
+        border-bottom:1px solid orange;
+    }
+.stdFile_s_index {
+    width:120px;
+    border-right:1px solid #999;
+    margin-left:10px;
+    height:25px;   
+}
+.stdFile_s_name {
+     width:180px;
+     border-right:1px solid #999;
+     height:25px;
+
+}
+.stdFile_f_size {
+     width:80px;
+     border-right:1px solid #999;
+     height:25px;
+
+}
+.stdFile_force {
+     width:80px;
+     border-right:1px solid #999;
+     height:25px;
+
+}
+.stdFile_range {
+     width:80px;
+     border-right:1px solid #999;
+     height:25px;
+
+}
+.stdFile_class {
+     width:80px;
+     border-right:1px solid #999;
+     height:25px;
+}
+.stdFile_f_update {
+     width:120px;
+     border-right:1px solid #999;
+     height:25px;
+}
+.stdFile_user {
+     width:180px;
+     border-right:1px solid #999;
+     height:25px;
+}
+.stdFile_btn {
+    width:80px;
+}
+.stdFile_proup {
+    width:800px;
+    height:600px;
+    border:1px solid #666;
+    text-align:center;
+    position:fixed;
+    margin:auto;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    background-color:#ddd
+    
+}
+    .stdFile_proup div {
+        width:390px;
+        /*border:1px solid red;*/
+        margin-top:50px;
+    }
+    .stdFile_proup input {
+        margin:10px;
+        /*height:22px;*/
+        Width:100px;
+        Height:26px;
+    }
+    .stdFile_proup select {
+        margin:10px;
+        width:155px;
+        height:24px;
+    }
+#ContentPlaceHolder1_txt_edite_about {
+    margin-top:20px;
+}
+
+
+/*************************************************************建设模块样式表*************************************************************************/
+/*基本框架设置*/
+.newmode {
+    width:1050px;
+    height:250px;
+    background-color:#eee;
+    text-align:center;
+    vertical-align:middle;
+    display: table-cell;
+}
+.newmode h1{
+    /*margin:auto auto;*/  
+}
+/*************************************************************新用户创建样式表*************************************************************************/
+/*基本框架设置*/
+.div_newuser_style {
+    width:500px;
+    height:400px;
+    background-color:#eee;
+    border:1px solid #ccc;
+}
+.div_newuser_style h2 {
+    padding:35px;
+}
+.validator {
+    font-size:10px;
+    color:red;
+}

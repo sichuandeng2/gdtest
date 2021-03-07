@@ -1,0 +1,127 @@
+﻿/**********************************************************************************************************************************************
+                                                            标准规范文件搜索样式表
+                                                    设计：北辰星拱 
+                                                    编制：北辰星拱
+                                                    最后修改：
+                                                       名称             日期              内容
+                                                    北辰星拱#         2020-1-30         创建文件
+**********************************************************************************************************************************************/
+
+/*标题样式*/
+.filesTitle {
+    margin-left:100px;
+    margin-top:20px;
+    width:420px;
+    height:45px;
+    border:1px solid #ccc;
+}
+.filesTitle:hover {
+    border:1px solid red;
+    background-color:#ddd;
+}
+
+/*搜索区样式*/
+.div_Search {
+    margin-top:20px;
+    margin-left:120px;
+}
+.div_Search input {
+    height:28px;
+    font-family:"微软雅黑";
+    font-size:16px;
+    /*width:450px;*/
+}
+#ContentPlaceHolder1_Text_Search {
+    width:450px;
+}
+#ContentPlaceHolder1_Button_Search {
+    width:100px;
+    height:32px;
+}
+
+/*筛选区样式*/
+.div_select {
+    margin-left:120px;
+    margin-top:20px;
+}
+.div_select span,select {
+    font-size:20px;
+}
+table {
+    border-collapse:collapse;
+}
+td {
+    border:2px solid gray;
+}
+.content {
+    margin:58px auto;
+}
+
+/*按钮区*/
+.buttons {
+    text-align:center;
+    margin-bottom:58px;
+}
+.buttons input {
+    height:32px;
+    font-size:20px;
+}
+.Validators {
+    font-size:12px;
+    color:red;
+}
+.stdfiles {
+    text-align:center;
+    border-bottom:1px solid #ddd;
+    border-top:1px solid #ddd;
+}
+.stdfiles_name {
+    width:185px;
+    padding:5px;
+    text-align:center;
+    border-right:1px solid #ddd;
+}
+.stdfiles_index {
+    width:220px;
+    padding:5px;
+    text-align:center;
+    border-right:1px solid #ddd;
+}
+.stdfiles_down {
+    width:70px;
+    padding:5px;
+    text-align:center;
+    border-right:1px solid #ddd;
+}
+.stdfiles_update {
+    width:100px;
+    padding:5px;
+    text-align:center;
+    border-right:1px solid #ddd;
+
+}
+.stdfiles_upusr {
+    width:280px;
+    padding:5px;
+    text-align:center;
+    border-right:1px solid #ddd;
+}
+.stdfiles_class {
+    width:100px;
+    padding:5px;
+    text-align:center;
+    border-right:1px solid #ddd;
+}
+.stdfiles_id {
+    width:60px;
+    padding:5px;
+    text-align:center;
+    border-right:1px solid #ddd;
+}
+.stdfiles_info {
+     width:100px;
+    padding:5px;
+    text-align:center;
+}
+
+

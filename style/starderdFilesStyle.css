@@ -1,0 +1,125 @@
+﻿/**********************************************************************************************************************************************
+                                                            标准规范文件集样式
+                                                    设计：北辰星拱 
+                                                    编制：北辰星拱
+                                                    最后修改：
+                                                       名称             日期              内容
+                                                    北辰星拱#         2020-1-29         创建文件
+**********************************************************************************************************************************************/
+
+
+
+/*标题样式设置*/
+.fileTitle {
+    text-align:center;
+     width:550px;
+     height:150px;
+     margin:80px auto 10px auto;
+}
+.fileTitle img {
+    width:150px;
+    height:150px;
+}
+.fileTitle h1 {
+    margin-top:55px;
+}
+ .fileTitle:hover {
+            border:1px solid gray;
+            background-color:#eee;
+        }
+
+/*搜索区样式设置*/
+.div_search {
+    text-align:center;
+    margin:50px auto;  
+}
+.div_search input {
+    height:32px;
+    width:548px;
+    font-family:"微软雅黑";
+    font-size:20px;
+}
+
+/*快速链接区*/
+.link {
+    /*margin-bottom:100px;*/
+
+}
+.itmelink {
+    /*text-align:center;
+    width:980px;
+    height:65px;
+    margin:0 auto;*/
+    /*margin-bottom:50px;*/
+}
+.itmelink p {
+    /*width:200px;
+    height:25px;
+    padding:20px;
+    text-align:center;
+    border:2px solid #dddddd;*/
+}
+.itmelink p:hover {
+    /*color:orange;
+    background-color:gray;*/
+}
+.link {
+     text-align:center;
+}
+.link ul {
+    /*width:880px;*/
+    margin:80px 0px;
+    /*border-bottom:1px solid #ddd;border-top:1px solid #ccc;*/
+}
+.link li {
+   padding:10px 60px;
+   display:inline-block;
+   border:1px solid #ddd;
+}
+
+/*按钮区*/
+.buttons {
+    /*border:2px solid green;*/
+    text-align:center;
+    margin:0px auto;
+    width:765px;
+    margin-bottom:50px;
+}
+.button {
+    height:50px;
+    width:300px;
+}
+#mid {
+    width:150px;
+    /*border:2px solid red;*/
+    margin:0px auto;
+    margin-bottom:100px;
+}
+.filesTitle {
+    margin-left:100px;
+    margin-top:20px;
+    width:420px;
+    height:45px;
+    border:1px solid #ccc;
+}
+.filesTitle:hover {
+    border:1px solid red;
+    background-color:#ddd;
+}
+.stdfile {
+    text-align:center;
+    /*display:inline-block;*/
+}
+.stdfile_name {
+    margin:80px auto;
+}
+.stdfile_about {
+    text-align:left;
+    width:1000px;
+    margin:20px auto;
+    /*border:1px solid red;*/
+}
+.down_buton {
+    margin:20px;
+}
+

@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="UsersMasterPage.master.cs" Inherits="UsersMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>功能管理</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    <link href="style/userStyle.css" rel="stylesheet" />
+    <link href="style/MainStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="titleHead"></div>
+
+        <%-- 标题栏 --%>
+        <div class="user_head">
+            <div class="user_title">
+                <asp:Image cssclass="fl" ID="Image1" runat="server" ImageUrl="~/img/logo.ico"  />
+                <h1 class="fl">工地试验室专项解决方案</h1>
+            </div>
+
+        <div id="defaultpage" onclick="defaultchek()" class="user_inherent">
+            <asp:Image cssclass="" ID="Image2" runat="server" ImageUrl="~/img/logo.ico"  />
+            <p class="">首  页</p>
+        </div>
+            
+
+        </div>
+        <div class="clr"></div>
+
+        <%--主内容区--%>
+        <div class="user_content">
+            <div class="user_menu fl">
+                <div>
+                    <a href="../Users/UsersManage.aspx">授权管理</a>
+                </div>
+
+                <div>
+                    <a href="../Users/UsersManage.aspx">用户管理</a>
+                </div>
+                <div>
+                    <a href="../Users/StrarderdFilesManage.aspx">规范管理</a>
+                </div>
+                <div>
+                    <a href="../Users/TestsManage.aspx">试验管理</a>
+                </div>
+                <div>
+                    <a href="../Users/NewsManage.aspx">设备管理</a>
+                </div>
+                <div>
+                    <a href="../Users/NewsManage.aspx">数据管理</a>
+                </div>
+
+                <div>
+                    <a href="../Users/NewsManage.aspx">龄期管理</a>
+                </div>
+
+            </div>
+            <div class="user_sheet fl">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">     
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="clr"></div>
+
+        </div>
+
+        <%--落尾区--%>
+        <%--  <div class="user_title">    
+        </div>--%>
+
+        <div class="titleHead"></div>
+
+
+    </form>
+</body>
+    <script type="text/javascript">
+        function defaultchek() {
+            //alert("d");
+            window.location.href = "../default.aspx";
+        }
+    </script>
+
+
+
+</html>

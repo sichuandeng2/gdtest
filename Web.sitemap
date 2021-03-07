@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/default.aspx" title="工地试验室"  description="">
+      
+        <!--规范文件-->
+        <siteMapNode url="../StartderdFiles/defaultStarderd.aspx" title="规范文件"  description="">
+          <siteMapNode url="../StartderdFilse/newStarderdFile.aspx" title="新规范上传" description=""/>
+          <siteMapNode url="../StartderdFilse/serchStarderdFile.aspx" title="规范搜索" description=""/>
+        </siteMapNode>
+      
+        <!--功能管理-->
+        <siteMapNode url="../Users/userDefault.aspx" title="功能管理"  description="">
+          <siteMapNode url ="../Users/UsersManage.aspx" title="用户管理" description=""/>
+          <siteMapNode url ="../Users/StarderdFilesManage.aspx" title="规范文件管理" description="" />
+          <siteMapNode url="../Users/TestsManage.aspx" title="试验管理" description=""/>
+          <siteMapNode url="../Users/NewsManage.aspx" title="建设中......" description=""/>
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>

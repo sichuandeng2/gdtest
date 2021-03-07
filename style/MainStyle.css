@@ -1,0 +1,158 @@
+﻿/***********************************************************************************************************************************************
+                                                            方案主样式集
+                                                    设计：北辰星拱 
+                                                    编制：北辰星拱
+                                                    最后修改：
+                                                            名称           日期                内容
+                                                        北辰星拱#       2020-1-20           创建文件
+***********************************************************************************************************************************************/
+
+
+
+
+/*清除基本格式*/
+form, body, h1, h2, h3, h4, h5, h6, p {
+    margin:0;
+    padding:0;
+    font-family:"微软雅黑";
+    /*border:2px solid red;*/ 
+}
+a {
+    color:orange;
+    text-decoration:none;
+}
+a:hover {
+    color:gray;
+}
+
+/*通用设置*/
+.fl{float:left}
+.fr{float:right}
+.clr{clear:both}
+
+/*标题设置*/
+.titleHead {
+    height:20px;
+    background-color:orange;
+}
+.defaultTitle {
+    margin-top:38px;
+    height:100px;
+    margin-left:100px;  
+}
+
+/*标题栏图片样式*/
+.defaultTitle img{
+    height:80px;
+    width:85px;
+}
+/*标题栏标题样式*/
+.defaultTitle h2{
+    margin-top:40px;
+    margin-left:20px;
+   /*position:center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+}
+/*标题链接*/
+.defaultTitle a {
+    margin-top:48px;
+    margin-left:2px; 
+}
+/*标题样式*/
+#mastertitle {
+   margin-bottom:100px;
+   text-align:center;
+}
+
+/*子模块*/
+.sonmode {
+   text-align:center;
+   margin-bottom:80px;
+}
+.sonmode h2{
+   margin-bottom:50px;
+}
+.sonmode p {
+    margin:10px;
+}
+.sonmode img{
+   width:938px;
+   margin-top:60px;
+   padding-top:20px;
+} 
+
+/*功能区模块*/
+.function {
+    
+    /*border:5px solid red;*/
+    width:990px;
+    height:220px;
+    margin:50px auto;
+    margin-bottom:10px;
+}
+.functionItme {
+    margin:10px;
+    padding:3px;
+    width:270px;
+    height:200px;
+    text-align:center;
+    /*border:3px solid #ddd;*/
+}
+    .functionItme:hover {
+        border:2px solid #ddd;
+    }
+.functionItme div {
+    margin:0px;
+    margin-left:10px;
+    padding:5px;
+    width:84px;
+    text-align:left;
+    /*border:3px solid #ddd;*/
+}
+.functionItme a {
+    /*margin:10px;*/
+    padding:10px;
+    color:#222222;
+}
+.functionItme a:hover {
+    color:orange;
+}
+    .functionItme div:hover {
+        border:3px solid orange;
+        font:#aaaaaa;
+        background-color:#eee
+    }
+
+/*尾页脚注*/
+.footPage{
+    background-image:url('../img/backImage.gif');
+    /*background-size:100% 100%;*/
+    height:200px;
+}
+.footItems {
+    width:138px;
+    height:180px;
+    margin:15px;
+    padding:8px;
+    margin-bottom:0px;
+}
+.footItems a{
+   font-size:12px;
+   /*padding-bottom:10px;*/
+}
+.footItems h5{
+   font-size:14px;
+   margin-top:20px;
+}
+.footsize {
+    float:none;
+    width:950px;
+    height:200px;
+    margin:0 auto;  
+}
+.footItems div {
+    margin:-18px;
+    margin-left:18px;
+}
